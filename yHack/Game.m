@@ -7,6 +7,9 @@
 //
 
 #import "Game.h"
+#import "Player.h"
+#import "Cell.h"
+#import "Photo.h"
 
 @implementation Game
 
@@ -21,6 +24,52 @@
     if(!_players) _players = [[NSMutableArray alloc] init];
     return _players;
 }
+
+- (NSMutableArray *)cells
+{
+    if(!_cells) _cells = [[NSMutableArray alloc] init];
+    return _cells;
+}
+
+//Game Constructor
+-(id) initWithType: (int) type{
+    
+    if(self = [super init]) {
+        Cell * c;
+        c.numUpload = 0;
+        c.playerVote = false;
+        for(int i=0; i<9; i++) {
+            [_cells[i] addObject: c];
+        }
+    
+        //initialize the cells based on the type of game
+        if (_gameType ==1) {
+            
+            [_cells[0] updateTopic: @"Public Transportation"];
+            [_cells[1] updateTopic: @"Classroom"];
+            [_cells[2] updateTopic: @"Food"];
+            [_cells[3] updateTopic: @"Outfits"];
+            [_cells[4] updateTopic: @"Wild Card"];
+            [_cells[5] updateTopic: @"Nature"];
+            [_cells[6] updateTopic: @"Gimme That!"];
+            [_cells[7] updateTopic: @"No Thank You!"];
+            [_cells[8] updateTopic: @"My Day in a Nutshell"];
+        
+        }
+    }
+    
+}
+
+
+
+
+
+
+    
+    
+    
+    
+
 
 -(void) addPlayer:(Player *)p{
     [_players addObject:p];

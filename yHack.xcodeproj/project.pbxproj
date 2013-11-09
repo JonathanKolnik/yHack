@@ -152,6 +152,8 @@
 				BF78A0A0182DC1B9000FDEFF /* Photo.m */,
 				5B518FDA182DCB6200D82D21 /* Cell.h */,
 				5B518FDB182DCB6200D82D21 /* Cell.m */,
+				BF78A0AB182E70FE000FDEFF /* Player.h */,
+				BF78A0AC182E7116000FDEFF /* Player.m */,
 				5B518FE0182DD68700D82D21 /* Controllers */,
 			);
 			path = yHack;
@@ -314,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF78A0AD182E7116000FDEFF /* Player.m in Sources */,
 				5BE4C544182DF78200676742 /* BoardViewController.m in Sources */,
 				5B518FCD182DBEF100D82D21 /* Game.m in Sources */,
 				5B4B1C38182DB77900129790 /* AppDelegate.m in Sources */,
