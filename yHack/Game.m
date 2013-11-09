@@ -1,0 +1,13 @@
+//
+//  Game.m
+//  yHack
+//
+//  Created by Jonathan Kolnik on 11/8/13.
+//  Copyright (c) 2013 bestteamever. All rights reserved.
+//
+
+#import "Game.h"
+
+@implementation Game
+
+@end
