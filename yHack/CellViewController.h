@@ -15,5 +15,5 @@
 
 @property(nonatomic,weak) Cell *currentCell;
 
-
+-(IBAction)cameraButtonTapped:(id)sender;
 @end
