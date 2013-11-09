@@ -11,7 +11,7 @@
 
 @interface Game : NSObject
 @property (strong, nonatomic) NSMutableArray *wincount;
-@property (nonatomic) NSArray *cells;
+@property (nonatomic) NSMutableArray *cells;
 @property (nonatomic) NSMutableArray *players;
 
 @property (nonatomic) Player *winner;
@@ -20,5 +20,6 @@
 -(void) addPlayer: (Player *) p;
 -(void) deletePlayer: (Player *) p;
 -(void) findWinner;
+-(id) initWithType: (int) type;
 
 @end
