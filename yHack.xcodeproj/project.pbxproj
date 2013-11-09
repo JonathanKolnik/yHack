@@ -21,6 +21,8 @@
 		5B4B1C4D182DB77900129790 /* yHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B1C4C182DB77900129790 /* yHackTests.m */; };
 		5B518FCD182DBEF100D82D21 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B518FCC182DBEF100D82D21 /* Game.m */; };
 		BF78A0A1182DC1B9000FDEFF /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78A0A0182DC1B9000FDEFF /* Photo.m */; };
+		BF78A0A4182DC2BE000FDEFF /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78A0A3182DC2BE000FDEFF /* Comment.m */; };
+		BF78A0A7182DC2E0000FDEFF /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78A0A6182DC2E0000FDEFF /* Player.m */; };
 		C1291580182DC0CD009EBBB1 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = C129157F182DC0CD009EBBB1 /* Cell.m */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,10 @@
 		5B518FCC182DBEF100D82D21 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		BF78A09F182DC1B9000FDEFF /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
 		BF78A0A0182DC1B9000FDEFF /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		BF78A0A2182DC2BE000FDEFF /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		BF78A0A3182DC2BE000FDEFF /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		BF78A0A5182DC2E0000FDEFF /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		BF78A0A6182DC2E0000FDEFF /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		C129157E182DC0CD009EBBB1 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		C129157F182DC0CD009EBBB1 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +132,10 @@
 				C129157F182DC0CD009EBBB1 /* Cell.m */,
 				BF78A09F182DC1B9000FDEFF /* Photo.h */,
 				BF78A0A0182DC1B9000FDEFF /* Photo.m */,
+				BF78A0A2182DC2BE000FDEFF /* Comment.h */,
+				BF78A0A3182DC2BE000FDEFF /* Comment.m */,
+				BF78A0A5182DC2E0000FDEFF /* Player.h */,
+				BF78A0A6182DC2E0000FDEFF /* Player.m */,
 			);
 			path = yHack;
 			sourceTree = "<group>";
@@ -255,9 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B518FCD182DBEF100D82D21 /* Game.m in Sources */,
+				BF78A0A4182DC2BE000FDEFF /* Comment.m in Sources */,
 				C1291580182DC0CD009EBBB1 /* Cell.m in Sources */,
 				5B4B1C38182DB77900129790 /* AppDelegate.m in Sources */,
 				BF78A0A1182DC1B9000FDEFF /* Photo.m in Sources */,
+				BF78A0A7182DC2E0000FDEFF /* Player.m in Sources */,
 				5B4B1C34182DB77900129790 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
