@@ -7,7 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Cell.h"
+#import "Photo.h"
+#import "Player.h"
 
 @interface Cell : NSObject
+
+@property(nonatomic) NSString *topic;
+@property(nonatomic) NSMutableArray *cellPhotos;
+@property(nonatomic) int numUpload;
+@property(nonatomic) Player *cellWinner;
+@property(nonatomic) NSMutableArray *playerVote;
+
+-(void) updateTopic: (NSString *) newTopic;
+-(void) Winner;
+
+
 
 @end
