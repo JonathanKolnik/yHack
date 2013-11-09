@@ -8,6 +8,12 @@
 
 #import "Photo.h"
 
+
 @implementation Photo
+
+- (void) upVote
+{
+    self.voteNumber++;
+}
 
 @end
