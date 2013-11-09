@@ -16,6 +16,11 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+//    
+//
+    BoardViewController *game =  [[BoardViewController alloc] init];
+    [self.window setRootViewController:game];
+
     return YES;
 }
 
