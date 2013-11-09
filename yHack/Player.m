@@ -17,9 +17,9 @@
 - (BOOL) vote:(Cell *)c
       atIndex:(int)photoIndex
 {
-    [c.playerVote objectAtIndex:self.playerIndex] = true;
-    [[c.cellPhotos objectAtIndex:photoIndex] upvote];
-    [c winner];
+    [c.playerVote replaceObjectAtIndex:self.playerIndex withObject:@"true"];
+    [[c.cellPhotos objectAtIndex:photoIndex] upVote];
+    [c Winner];
     return true;
 }
 
