@@ -43,7 +43,7 @@
         
         //loop through all the photos in the cell, and check which has the most votes
         for (int j=1;j<[_cellPhotos count];j++) {
-            if(_cellPhotos[j].voteNumber > winner.voteNumber)
+            if([_cellPhotos[j] voteNumber] > winner.voteNumber)
                 winner = _cellPhotos[j];
         }
         
@@ -51,7 +51,7 @@
         _cellWinner = winner.uploader;
         
         //increment the winner's score
-        _cellWinner.incrementScore();
+        [_cellWinner incrementScore];
         
         //update the winCount in the Game class
         currentGame.winCount.add[_cellWinner.playerIndex];
