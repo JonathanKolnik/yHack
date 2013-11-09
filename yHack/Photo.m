@@ -11,6 +11,13 @@
 
 @implementation Photo
 
+
+- (Player *)uploader
+{
+    if (!_uploader) _uploader = [[Player alloc] init];
+    return _uploader;
+}
+
 - (void) upVote
 {
     self.voteNumber++;
