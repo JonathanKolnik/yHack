@@ -34,6 +34,7 @@
 //Game Constructor
 -(id) initWithType: (int) type{
     
+    //add 9 cells to the game
     if(self = [super init]) {
         Cell * c;
         c.numUpload = 0;
@@ -56,19 +57,24 @@
             [_cells[8] updateTopic: @"My Day in a Nutshell"];
         
         }
+        
+        if (_gameType ==2) {
+            
+            [_cells[0] updateTopic: @"Quintessential Programmer"];
+            [_cells[1] updateTopic: @"Best Room Set Up"];
+            [_cells[2] updateTopic: @"Funniest Door Sign"];
+            [_cells[3] updateTopic: @"Most Y-Hack Pride"];
+            [_cells[4] updateTopic: @"Wild Card"];
+            [_cells[5] updateTopic: @"Sponsors"];
+            [_cells[6] updateTopic: @"New Friends"];
+            [_cells[7] updateTopic: @"Best Snacks"];
+            [_cells[8] updateTopic: @"Best Outfit"];
+            
+        }
     }
-    
+    return self;
 }
 
-
-
-
-
-
-    
-    
-    
-    
 
 
 -(void) addPlayer:(Player *)p{
