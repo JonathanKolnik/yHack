@@ -35,14 +35,15 @@
 -(id) initWithType: (int) type{
     
     if(self = [super init]) {
-    
+        Cell * c;
+        c.numUpload = 0;
+        c.playerVote = false;
         for(int i=0; i<9; i++) {
-            _cells[i].numUploaded =0;
-            _cells[i].playerVote = false;
+            [_cells[i] addObject: c];
         }
     
         //initialize the cells based on the type of game
-        if (gameType ==1) {
+        if (_gameType ==1) {
             _cells[0].updateTopic("Public Transportation");
             _cells[1].updateTopic("Classroom");
             _cells[2].updateTopic("Food");
