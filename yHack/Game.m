@@ -44,15 +44,16 @@
     
         //initialize the cells based on the type of game
         if (_gameType ==1) {
-            _cells[0].updateTopic("Public Transportation");
-            _cells[1].updateTopic("Classroom");
-            _cells[2].updateTopic("Food");
-            _cells[3].updateTopic("Outfits");
-            _cells[4].updateTopic("Wild Card");
-            _cells[5].updateTopic("Nature");
-            _cells[6].updateTopic("Gimme That!");
-            _cells[7].updateTopic("No Thank You!");
-            _cells[8].updateTopic("My Day in a Nutshell");
+            
+            [_cells[0] updateTopic: @"Public Transportation"];
+            [_cells[1] updateTopic: @"Classroom"];
+            [_cells[2] updateTopic: @"Food"];
+            [_cells[3] updateTopic: @"Outfits"];
+            [_cells[4] updateTopic: @"Wild Card"];
+            [_cells[5] updateTopic: @"Nature"];
+            [_cells[6] updateTopic: @"Gimme That!"];
+            [_cells[7] updateTopic: @"No Thank You!"];
+            [_cells[8] updateTopic: @"My Day in a Nutshell"];
         
         }
     }
