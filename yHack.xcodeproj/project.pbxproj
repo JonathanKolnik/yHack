@@ -20,10 +20,12 @@
 		5B4B1C4B182DB77900129790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B1C49182DB77900129790 /* InfoPlist.strings */; };
 		5B4B1C4D182DB77900129790 /* yHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B1C4C182DB77900129790 /* yHackTests.m */; };
 		5B518FCD182DBEF100D82D21 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B518FCC182DBEF100D82D21 /* Game.m */; };
+		5B518FCF182DC2D000D82D21 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B518FCE182DC2D000D82D21 /* Storyboard.storyboard */; };
+		5B518FDC182DCB6200D82D21 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B518FDB182DCB6200D82D21 /* Cell.m */; };
+		5BE4C540182DEE3D00676742 /* glyphicons_011_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4C53F182DEE3D00676742 /* glyphicons_011_camera.png */; };
+		5BE4C544182DF78200676742 /* BoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4C543182DF78200676742 /* BoardViewController.m */; };
+		5BE4C547182E0ECD00676742 /* CellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4C546182E0ECD00676742 /* CellViewController.m */; };
 		BF78A0A1182DC1B9000FDEFF /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78A0A0182DC1B9000FDEFF /* Photo.m */; };
-		BF78A0A4182DC2BE000FDEFF /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78A0A3182DC2BE000FDEFF /* Comment.m */; };
-		BF78A0A7182DC2E0000FDEFF /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78A0A6182DC2E0000FDEFF /* Player.m */; };
-		C1291580182DC0CD009EBBB1 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = C129157F182DC0CD009EBBB1 /* Cell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +57,16 @@
 		5B4B1C4C182DB77900129790 /* yHackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yHackTests.m; sourceTree = "<group>"; };
 		5B518FCB182DBEF100D82D21 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		5B518FCC182DBEF100D82D21 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		5B518FCE182DC2D000D82D21 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		5B518FDA182DCB6200D82D21 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		5B518FDB182DCB6200D82D21 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		5BE4C53F182DEE3D00676742 /* glyphicons_011_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glyphicons_011_camera.png; path = ../yHack/glyphicons_011_camera.png; sourceTree = "<group>"; };
+		5BE4C542182DF78200676742 /* BoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardViewController.h; sourceTree = "<group>"; };
+		5BE4C543182DF78200676742 /* BoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardViewController.m; sourceTree = "<group>"; };
+		5BE4C545182E0ECD00676742 /* CellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellViewController.h; sourceTree = "<group>"; };
+		5BE4C546182E0ECD00676742 /* CellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellViewController.m; sourceTree = "<group>"; };
 		BF78A09F182DC1B9000FDEFF /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
 		BF78A0A0182DC1B9000FDEFF /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
-		BF78A0A2182DC2BE000FDEFF /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
-		BF78A0A3182DC2BE000FDEFF /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
-		BF78A0A5182DC2E0000FDEFF /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		BF78A0A6182DC2E0000FDEFF /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		C129157E182DC0CD009EBBB1 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
-		C129157F182DC0CD009EBBB1 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,14 +132,11 @@
 				5B4B1C2E182DB77900129790 /* Supporting Files */,
 				5B518FCB182DBEF100D82D21 /* Game.h */,
 				5B518FCC182DBEF100D82D21 /* Game.m */,
-				C129157E182DC0CD009EBBB1 /* Cell.h */,
-				C129157F182DC0CD009EBBB1 /* Cell.m */,
 				BF78A09F182DC1B9000FDEFF /* Photo.h */,
 				BF78A0A0182DC1B9000FDEFF /* Photo.m */,
-				BF78A0A2182DC2BE000FDEFF /* Comment.h */,
-				BF78A0A3182DC2BE000FDEFF /* Comment.m */,
-				BF78A0A5182DC2E0000FDEFF /* Player.h */,
-				BF78A0A6182DC2E0000FDEFF /* Player.m */,
+				5B518FDA182DCB6200D82D21 /* Cell.h */,
+				5B518FDB182DCB6200D82D21 /* Cell.m */,
+				5B518FE0182DD68700D82D21 /* Controllers */,
 			);
 			path = yHack;
 			sourceTree = "<group>";
@@ -163,10 +164,31 @@
 		5B4B1C47182DB77900129790 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BE4C541182DEE4B00676742 /* Photos */,
 				5B4B1C48182DB77900129790 /* yHackTests-Info.plist */,
 				5B4B1C49182DB77900129790 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B518FE0182DD68700D82D21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B518FCE182DC2D000D82D21 /* Storyboard.storyboard */,
+				5BE4C542182DF78200676742 /* BoardViewController.h */,
+				5BE4C543182DF78200676742 /* BoardViewController.m */,
+				5BE4C545182E0ECD00676742 /* CellViewController.h */,
+				5BE4C546182E0ECD00676742 /* CellViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5BE4C541182DEE4B00676742 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				5BE4C53F182DEE3D00676742 /* glyphicons_011_camera.png */,
+			);
+			name = Photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4B1C32182DB77900129790 /* InfoPlist.strings in Resources */,
+				5BE4C540182DEE3D00676742 /* glyphicons_011_camera.png in Resources */,
 				5B4B1C3A182DB77900129790 /* Images.xcassets in Resources */,
+				5B518FCF182DC2D000D82D21 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,13 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE4C544182DF78200676742 /* BoardViewController.m in Sources */,
 				5B518FCD182DBEF100D82D21 /* Game.m in Sources */,
-				BF78A0A4182DC2BE000FDEFF /* Comment.m in Sources */,
-				C1291580182DC0CD009EBBB1 /* Cell.m in Sources */,
 				5B4B1C38182DB77900129790 /* AppDelegate.m in Sources */,
+				5BE4C547182E0ECD00676742 /* CellViewController.m in Sources */,
 				BF78A0A1182DC1B9000FDEFF /* Photo.m in Sources */,
 				BF78A0A7182DC2E0000FDEFF /* Player.m in Sources */,
 				5B4B1C34182DB77900129790 /* main.m in Sources */,
+				5B518FDC182DCB6200D82D21 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
