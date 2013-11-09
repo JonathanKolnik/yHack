@@ -9,6 +9,7 @@
 #import "CellViewController.h"
 
 @interface CellViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *photoCells;
 
 @end
 
@@ -65,25 +66,25 @@
 //
 //
 //}
-- (void)uploadImage:(NSData *)imageData
-{
-    
-    PFFile *imageFile = [PFFile fileWithName:@"Image.jpg" data:imageData];
-    
-    
-    // Save PFFile
-    [imageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-        if (!error) {
-            NSLog(@"uploaded pic");
-            [[PFUser currentUser] setObject:imageFile forKey:@"profilePic"];
-            [[PFUser currentUser] saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-                if (!error) {
-                    NSLog(@"uploaded pic");
-                }
-            }];
-        }
-    }];
-}
+//- (void)uploadImage:(NSData *)imageData
+//{
+//    
+//    PFFile *imageFile = [PFFile fileWithName:@"Image.jpg" data:imageData];
+//    
+//    
+//    // Save PFFile
+//    [imageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+//        if (!error) {
+//            NSLog(@"uploaded pic");
+//            [[PFUser currentUser] setObject:imageFile forKey:@"profilePic"];
+//            [[PFUser currentUser] saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+//                if (!error) {
+//                    NSLog(@"uploaded pic");
+//                }
+//            }];
+//        }
+//    }];
+//}
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     
@@ -105,12 +106,12 @@
         
         
         UIImage *small = [UIImage imageWithCGImage:image.CGImage scale:1 orientation:image.imageOrientation];
-        
-        
-        // Upload image
-        NSData *imageData = UIImageJPEGRepresentation(small, 0.05f);
-        [self uploadImage:imageData];
-        //        
+        [_photoCells setImage:small forState:UIControlStateNormal];
+//        
+//        // Upload image
+//        NSData *imageData = UIImageJPEGRepresentation(small, 0.05f);
+//        [self uploadImage:imageData];
+        //
         
     }];
 }
