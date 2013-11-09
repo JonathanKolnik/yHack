@@ -10,8 +10,7 @@
 #import "Player.h"
 
 @interface Game : NSObject
-
-@property (nonatomic) NSMutableArray *wincount;
+@property (strong, nonatomic) NSMutableArray *wincount;
 @property (nonatomic) NSArray *cells;
 @property (nonatomic) NSMutableArray *players;
 

@@ -10,6 +10,18 @@
 
 @implementation Game
 
+- (NSMutableArray *)wincount
+{
+    if(!_wincount) _wincount = [[NSMutableArray alloc] init];
+    return _wincount;
+}
+
+- (NSMutableArray *)players
+{
+    if(!_players) _players = [[NSMutableArray alloc] init];
+    return _players;
+}
+
 -(void) addPlayer:(Player *)p{
     [_players addObject:p];
 }
@@ -27,7 +39,7 @@
         }
         NSInteger x;
         for(NSUInteger i = 0; i < _wincount.count ; i++){
-            x = _wincount[i];
+            x = (NSInteger)_wincount[i];
             playerIndexWins[x] = @([playerIndexWins[x] intValue] + 1);
         }
     }
