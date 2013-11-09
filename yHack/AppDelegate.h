@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GameViewController.h"
+#import "BoardViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

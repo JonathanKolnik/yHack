@@ -22,7 +22,9 @@
 		5B518FCD182DBEF100D82D21 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B518FCC182DBEF100D82D21 /* Game.m */; };
 		5B518FCF182DC2D000D82D21 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B518FCE182DC2D000D82D21 /* Storyboard.storyboard */; };
 		5B518FDC182DCB6200D82D21 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B518FDB182DCB6200D82D21 /* Cell.m */; };
-		5B518FDF182DD68100D82D21 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B518FDE182DD68100D82D21 /* GameViewController.m */; };
+		5BE4C540182DEE3D00676742 /* glyphicons_011_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4C53F182DEE3D00676742 /* glyphicons_011_camera.png */; };
+		5BE4C544182DF78200676742 /* BoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4C543182DF78200676742 /* BoardViewController.m */; };
+		5BE4C547182E0ECD00676742 /* CellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4C546182E0ECD00676742 /* CellViewController.m */; };
 		BF78A0A1182DC1B9000FDEFF /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78A0A0182DC1B9000FDEFF /* Photo.m */; };
 /* End PBXBuildFile section */
 
@@ -58,8 +60,11 @@
 		5B518FCE182DC2D000D82D21 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		5B518FDA182DCB6200D82D21 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		5B518FDB182DCB6200D82D21 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
-		5B518FDD182DD68100D82D21 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		5B518FDE182DD68100D82D21 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5BE4C53F182DEE3D00676742 /* glyphicons_011_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glyphicons_011_camera.png; path = ../yHack/glyphicons_011_camera.png; sourceTree = "<group>"; };
+		5BE4C542182DF78200676742 /* BoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardViewController.h; sourceTree = "<group>"; };
+		5BE4C543182DF78200676742 /* BoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardViewController.m; sourceTree = "<group>"; };
+		5BE4C545182E0ECD00676742 /* CellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellViewController.h; sourceTree = "<group>"; };
+		5BE4C546182E0ECD00676742 /* CellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellViewController.m; sourceTree = "<group>"; };
 		BF78A09F182DC1B9000FDEFF /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
 		BF78A0A0182DC1B9000FDEFF /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,7 +134,6 @@
 				5B518FCC182DBEF100D82D21 /* Game.m */,
 				BF78A09F182DC1B9000FDEFF /* Photo.h */,
 				BF78A0A0182DC1B9000FDEFF /* Photo.m */,
-				5B518FCE182DC2D000D82D21 /* Storyboard.storyboard */,
 				5B518FDA182DCB6200D82D21 /* Cell.h */,
 				5B518FDB182DCB6200D82D21 /* Cell.m */,
 				5B518FE0182DD68700D82D21 /* Controllers */,
@@ -160,6 +164,7 @@
 		5B4B1C47182DB77900129790 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BE4C541182DEE4B00676742 /* Photos */,
 				5B4B1C48182DB77900129790 /* yHackTests-Info.plist */,
 				5B4B1C49182DB77900129790 /* InfoPlist.strings */,
 			);
@@ -169,10 +174,21 @@
 		5B518FE0182DD68700D82D21 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B518FDD182DD68100D82D21 /* GameViewController.h */,
-				5B518FDE182DD68100D82D21 /* GameViewController.m */,
+				5B518FCE182DC2D000D82D21 /* Storyboard.storyboard */,
+				5BE4C542182DF78200676742 /* BoardViewController.h */,
+				5BE4C543182DF78200676742 /* BoardViewController.m */,
+				5BE4C545182E0ECD00676742 /* CellViewController.h */,
+				5BE4C546182E0ECD00676742 /* CellViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5BE4C541182DEE4B00676742 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				5BE4C53F182DEE3D00676742 /* glyphicons_011_camera.png */,
+			);
+			name = Photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4B1C32182DB77900129790 /* InfoPlist.strings in Resources */,
+				5BE4C540182DEE3D00676742 /* glyphicons_011_camera.png in Resources */,
 				5B4B1C3A182DB77900129790 /* Images.xcassets in Resources */,
 				5B518FCF182DC2D000D82D21 /* Storyboard.storyboard in Resources */,
 			);
@@ -271,11 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE4C544182DF78200676742 /* BoardViewController.m in Sources */,
 				5B518FCD182DBEF100D82D21 /* Game.m in Sources */,
 				5B4B1C38182DB77900129790 /* AppDelegate.m in Sources */,
+				5BE4C547182E0ECD00676742 /* CellViewController.m in Sources */,
 				BF78A0A1182DC1B9000FDEFF /* Photo.m in Sources */,
 				5B4B1C34182DB77900129790 /* main.m in Sources */,
-				5B518FDF182DD68100D82D21 /* GameViewController.m in Sources */,
 				5B518FDC182DCB6200D82D21 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
