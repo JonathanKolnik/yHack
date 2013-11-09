@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Player.h"
+#import "Cell.h"
+@class Player;
 
 @interface Photo : NSObject
+
 @property (strong, nonatomic) Player *uploader;
+
+
 @property (nonatomic) int voteNumber;
+
 
 - (void) upVote;
 @end

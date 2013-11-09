@@ -54,8 +54,8 @@
         [_cellWinner incrementScore];
         
         //update the winCount in the Game class
-        currentGame.winCount.add[_cellWinner.playerIndex];
-        currentGame.findWinner();
+        //currentGame.winCount.add[_cellWinner.playerIndex];
+        //currentGame.findWinner();
             
     }
     

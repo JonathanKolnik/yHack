@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Cell.h"
 #import "Photo.h"
 #import "Player.h"
 

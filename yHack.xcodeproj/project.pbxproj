@@ -13,7 +13,6 @@
 		5B4B1C32182DB77900129790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B1C30182DB77900129790 /* InfoPlist.strings */; };
 		5B4B1C34182DB77900129790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B1C33182DB77900129790 /* main.m */; };
 		5B4B1C38182DB77900129790 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B1C37182DB77900129790 /* AppDelegate.m */; };
-		5B4B1C3A182DB77900129790 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B1C39182DB77900129790 /* Images.xcassets */; };
 		5B4B1C41182DB77900129790 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4B1C40182DB77900129790 /* XCTest.framework */; };
 		5B4B1C42182DB77900129790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4B1C27182DB77900129790 /* Foundation.framework */; };
 		5B4B1C43182DB77900129790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4B1C2B182DB77900129790 /* UIKit.framework */; };
@@ -53,7 +52,6 @@
 		5B4B1C35182DB77900129790 /* yHack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yHack-Prefix.pch"; sourceTree = "<group>"; };
 		5B4B1C36182DB77900129790 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B4B1C37182DB77900129790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B4B1C39182DB77900129790 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5B4B1C3F182DB77900129790 /* yHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4B1C40182DB77900129790 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5B4B1C48182DB77900129790 /* yHackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yHackTests-Info.plist"; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 				C1291586182E6F52009EBBB1 /* Images.xcassets */,
 				5B4B1C36182DB77900129790 /* AppDelegate.h */,
 				5B4B1C37182DB77900129790 /* AppDelegate.m */,
-				5B4B1C39182DB77900129790 /* Images.xcassets */,
 				5B4B1C2E182DB77900129790 /* Supporting Files */,
 				5B518FCB182DBEF100D82D21 /* Game.h */,
 				5B518FCC182DBEF100D82D21 /* Game.m */,
@@ -292,7 +289,6 @@
 			files = (
 				5B4B1C32182DB77900129790 /* InfoPlist.strings in Resources */,
 				5BE4C540182DEE3D00676742 /* glyphicons_011_camera.png in Resources */,
-				5B4B1C3A182DB77900129790 /* Images.xcassets in Resources */,
 				C129158B182E6F52009EBBB1 /* Images.xcassets in Resources */,
 				5B518FCF182DC2D000D82D21 /* Storyboard.storyboard in Resources */,
 				C129158A182E6F52009EBBB1 /* InfoPlist.strings in Resources */,
