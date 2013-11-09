@@ -16,7 +16,7 @@
 @property(nonatomic) NSString *topic;
 @property(nonatomic) NSMutableArray *cellPhotos;
 @property(nonatomic) int numUpload;
-@property(nonatomic) Player *cellWinner;
+@property(strong, nonatomic) Player *cellWinner;
 @property(nonatomic) NSMutableArray *playerVote;
 
 -(void) updateTopic: (NSString *) newTopic;
