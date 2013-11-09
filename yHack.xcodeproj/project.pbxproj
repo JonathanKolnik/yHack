@@ -293,6 +293,7 @@
 				5B4B1C38182DB77900129790 /* AppDelegate.m in Sources */,
 				5BE4C547182E0ECD00676742 /* CellViewController.m in Sources */,
 				BF78A0A1182DC1B9000FDEFF /* Photo.m in Sources */,
+				BF78A0A7182DC2E0000FDEFF /* Player.m in Sources */,
 				5B4B1C34182DB77900129790 /* main.m in Sources */,
 				5B518FDC182DCB6200D82D21 /* Cell.m in Sources */,
 			);
